@@ -16,7 +16,17 @@
   .primary-header {
     font-family: 'Merriweather', serif;
   }
-    
+  .link-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Or any width you prefer */
+}
+
+.link-container a {
+  text-decoration: none;
+  color: blue; /* Customize your link styles */
+}
+
 </style>
 <body>
   <h1 class="primary-header">Welcome to My Progress Tracker</h1>
@@ -32,6 +42,10 @@
   classes, and I am still excited about how there is more to learn. I have only begun this journey and am already excited about what is to come 
   and how much there is to learn.</p>
 
-  <a href='lcp.html'>Leet Code Journey</a>
+  <div class="link-container">
+    <a href="lcp.html">Leet Code Progress</a>
+    <a href="ML.html">Machine Learning Journey</a>
+  </div>
+  
 </body>
 </html>
